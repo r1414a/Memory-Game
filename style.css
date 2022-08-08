@@ -1,0 +1,91 @@
+@media only screen and (min-width: 600px) {
+    body {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+body {
+    background-color: grey;
+}
+
+button {
+    height: 7rem;
+    width: 7rem;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 1.5em;
+    border: 0.2rem solid green;
+    border-radius: 50%;
+}
+
+#timer {
+    position: absolute;
+    color: white;
+    font-size: 10rem;
+    top: 0;
+}
+
+
+button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.land-page {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 10rem;
+}
+
+span {
+    top: 2rem;
+    position: absolute;
+    background-color: grey;
+    border-radius: 3rem;
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    width: 20rem;
+    height: 4rem;
+}
+
+table {
+    margin-top: 10rem;
+}
+
+#sec3 {
+    color: white;
+    margin-top: 10rem;;
+}
+
+.container {
+    position: relative;
+    width: 7rem;
+    height: 9rem;
+    padding: 0.2rem;
+}
+
+.cards {
+    position: absolute;
+    width: 7rem;
+    height: 9rem;
+    background-color: yellow;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    perspective: 100rem;
+    border: 3px solid black;
+    border-radius: 1.5rem;
+}
+
+.back-side {
+    position: absolute;
+    margin-top: 1rem;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
